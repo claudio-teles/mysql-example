@@ -1,0 +1,22 @@
+{
+  "name": "mysql-example",
+  "version": "1.0.0",
+  "description": "crud com o node.js, mysql e express",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudio-teles/mysql-example.git"
+  },
+  "keywords": [
+    "mysql-example"
+  ],
+  "author": "claudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudio-teles/mysql-example/issues"
+  },
+  "homepage": "https://github.com/claudio-teles/mysql-example#readme"
+}
