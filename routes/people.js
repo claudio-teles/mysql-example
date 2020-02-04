@@ -16,10 +16,9 @@ Router.post("/", (req, res)=>{
   mysqlConnection.query(create, (err, rows, fields)=>{
     if (!err) {
       req.session.nome = req.body.nome;
-      req.session.senha = req.body.senha;
       var resposta = {
         nome: req.session.nome,
-        senha: ocultaSenha(req.session.senha)
+        senha: ocultaSenha(req.body.senha)
       }
       res.status(201).send(resposta);
     } else {
